@@ -4,6 +4,6 @@ A tutorial based on (Complete Guide to Data Visualization with Python)[https://t
 
 
 ### Repo Structure:
-`datasets/` is the folder with all of the data files required for the workshop.
-`slides/` is the folder for both the pdf of the slide deck and the link to the google slides presentation.
-`code/` is the folder with all the supplemental code, including some extra references/resources to share with students.
+* `datasets/` is the folder with all of the data files required for the workshop.
+* `slides/` is the folder for both the pdf of the slide deck and the link to the google slides presentation.
+* `code/` is the folder with all the supplemental code, including some extra references/resources to share with students.
