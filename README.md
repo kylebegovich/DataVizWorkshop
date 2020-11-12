@@ -1,6 +1,6 @@
 # DataVizWorkshop
 
-A tutorial based on (Complete Guide to Data Visualization with Python)[https://towardsdatascience.com/complete-guide-to-data-visualization-with-python-2dd74df12b5e], formatted as follow-along workshop instead of article.
+A tutorial based on [Complete Guide to Data Visualization with Python](https://towardsdatascience.com/complete-guide-to-data-visualization-with-python-2dd74df12b5e), formatted as follow-along workshop instead of article.
 
 
 ### Repo Structure:
