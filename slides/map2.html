@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ea5549f259d64ed0817a13eda6dd9717 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ea5549f259d64ed0817a13eda6dd9717" ></div>
+        
+</body>
+<script>    
+    
+            var map_ea5549f259d64ed0817a13eda6dd9717 = L.map(
+                "map_ea5549f259d64ed0817a13eda6dd9717",
+                {
+                    center: [41.38, 2.17],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5739049bdce54ad2b92fff4b908f0cc3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ea5549f259d64ed0817a13eda6dd9717);
+        
+    
+            var marker_35bc6fcab66d4158a782870cf8307206 = L.marker(
+                [41.38, 2.176],
+                {}
+            ).addTo(map_ea5549f259d64ed0817a13eda6dd9717);
+        
+    
+        var popup_23d3e773667f4de98b62dd6e9d2b8fca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2c0efe42e304769802d71c605d6c9ad = $(`<div id="html_c2c0efe42e304769802d71c605d6c9ad" style="width: 100.0%; height: 100.0%;"><i>You can use whatever HTML code you want</i></div>`)[0];
+            popup_23d3e773667f4de98b62dd6e9d2b8fca.setContent(html_c2c0efe42e304769802d71c605d6c9ad);
+        
+
+        marker_35bc6fcab66d4158a782870cf8307206.bindPopup(popup_23d3e773667f4de98b62dd6e9d2b8fca)
+        ;
+
+        
+    
+    
+            marker_35bc6fcab66d4158a782870cf8307206.bindTooltip(
+                `<div>
+                     click here
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d2e317037e84434af09eefb447b63e7 = L.marker(
+                [41.38, 2.174],
+                {}
+            ).addTo(map_ea5549f259d64ed0817a13eda6dd9717);
+        
+    
+        var popup_565380b681334b2ba83faaa4b7fade33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ba8df7e6b1843de966d42cced11e211 = $(`<div id="html_3ba8df7e6b1843de966d42cced11e211" style="width: 100.0%; height: 100.0%;"><b>You can use whatever HTML code you want</b></div>`)[0];
+            popup_565380b681334b2ba83faaa4b7fade33.setContent(html_3ba8df7e6b1843de966d42cced11e211);
+        
+
+        marker_3d2e317037e84434af09eefb447b63e7.bindPopup(popup_565380b681334b2ba83faaa4b7fade33)
+        ;
+
+        
+    
+    
+            marker_3d2e317037e84434af09eefb447b63e7.bindTooltip(
+                `<div>
+                     dont click here
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
